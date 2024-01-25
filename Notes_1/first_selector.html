@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <!-- <link rel="shortcut icon" href="mukesh.jpg" type="image/x-icon"> -->
+    <!-- <link rel="stylesheet" href="sele.css"> -->
+    <!-- Here we use internal selector of CSS -->
+
+    <style>
+        /*      all h tag is selected by using star sign [*]       */
+        * {
+            color: #ff00c8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1{
+            color: #090909;
+            background: #81b7c1;
+        }
+        h2{
+            background: #4fd44c;
+        }
+        /*     CLASS is select  by using  dot[.]     */
+        .mukesh{
+            background-color: #dec41d;
+             font-style: italic;
+             
+
+        }
+        /*      ID is selected by using # sign        */
+        #rahul{
+            color: #802780;
+            background-color: #ff00bb;
+            font-style:normal ;
+
+        }
+        a{
+            background-color: #8c386d;
+            color: rgb(245, 242, 238);
+        }
+        /*   Particularly (anchore) tag is selected by its attributes */
+        a[target="wow"]{
+            background-color: #0b0a0a;
+            color: #10e36f;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="rahul">HELLOW MUKESH BHAI</h1>
+    <h2>Here we leran about Selector</h2>
+    <h1 class="mukesh">this is introduction of css </h1>
+    
+    <a target="wow" href="https://www.google.com/">GOOOGLE</a>
+    <br>
+    <a target="nice" href="https://pwskills.com/"> PW SKILLS</a>
+    
+</body>
+</html>

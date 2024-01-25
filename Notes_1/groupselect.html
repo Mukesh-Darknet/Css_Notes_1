@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Group Selector</title>
+
+    <style>
+        /*  we can select multiple headline by using comma[,] */
+        h1,h2, h3{
+            background-color: #e07474;
+            color: #000000;
+            font-style: italic;
+            font-size: 30px;
+            /* padding: 0; */
+            /* margin: 0; */
+        }
+        .muk{
+            background-color: #5d5454;
+            color: beige;
+            font-size: 30px;
+            font-style:italic;
+        }
+        header > a{
+            background-color:red;
+        }
+        /*  we can select header file as given below */
+        header > nav {
+            background-color: #41a037;
+        }
+        
+        img ~ p{
+            background-color: #b9a825;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>HELLO MUKESH YADAV</h1>
+    <h2>WE learn about group selector</h2>
+    <h3>It is easy to lean</h3>
+   <ol class="muk">
+    <li>MUKESH</li>
+    <li>NIKESH</li>
+    <li>BABLU</li>
+   </ol>
+    <header>
+        <a href="">go to google</a>
+        <nav>
+            <ol>
+                <li>MANGO</li>
+                <li>BANANA</li>
+                <li>APPLE</li>
+                <a href="">logo</a>
+            </ol>
+        </nav>
+        <a href="">bing</a>
+        <a href="">yahoo</a>
+    </header>
+    <div>
+        <img src="" alt="please upload photo">
+        <p>please change me carefully</p>
+    </div>
+    
+</body>
+</html>
